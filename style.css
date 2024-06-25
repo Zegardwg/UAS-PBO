@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1,
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  margin: 5px 0;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  margin: 5px 0;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+button.hapus {
+  background-color: #e74c3c;
+}
+
+button.hapus:hover {
+  background-color: #c0392b; /* Warna merah lebih gelap saat hover */
+}
+
+button.edit {
+  background-color: #f1c40f;
+}
+
+button.edit:hover {
+  background-color: #e67e22; /* Warna kuning lebih gelap saat hover */
+}
+
+button.tambah {
+  background-color: #2ecc71;
+}
+
+button.tambah:hover {
+  background-color: #27ae60; /* Warna hijau lebih gelap saat hover */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+body {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+h1 {
+  margin-bottom: 20px;
+}
+table {
+  margin-top: 20px;
+}
+.table td,
+.table th {
+  vertical-align: middle;
+}
+.form-inline .form-control {
+  margin-right: 10px;
+}
+.edit,
+.hapus {
+  margin-right: 5px;
+}
